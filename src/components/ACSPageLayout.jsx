@@ -50,6 +50,11 @@ export const ACSPageLayout = () => {
               <ListItemText primary={"Noticia"}></ListItemText>
             </ListItemButton>
           </ListItem>
+          <ListItem>
+            <ListItemButton component="a" href="/contato">
+              <ListItemText primary={"Contato"}></ListItemText>
+            </ListItemButton>
+          </ListItem>
         </List>
       </Box>
     );
