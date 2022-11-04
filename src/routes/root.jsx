@@ -17,7 +17,7 @@ import ACSContact from "../components/ACSContact";
 const route = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<ACSPageLayout />} errorElement={<ACSErrorPage />}>
-      <Route index path="/" element={<ACSHome />}></Route>
+      <Route index path="/home" element={<ACSHome />}></Route>
       <Route path="sobre" element={<ACSAbout />}></Route>
       <Route path="albuns" element={<ACSFetchAlbum />}></Route>
       <Route path="noticia" element={<ACSFetchNews />}></Route>
